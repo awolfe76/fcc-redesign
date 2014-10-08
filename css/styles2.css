@@ -1392,7 +1392,7 @@ nav {
 nav a:link {
   color: rgba(255, 255, 255, .85);
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1;
   padding: 5px 15px;
