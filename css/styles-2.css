@@ -378,7 +378,7 @@ blockquote {
 
 .btn, .btn--action, .btn--cancel, .btn--disabled, .btn--outline, .btn--small, .btn--large, .btn--get-some {
   background: #69bc28;
-  border: none;
+  border: 1px solid #69bc28;
   border-radius: 2px;
   color: white;
   cursor: pointer;
@@ -425,13 +425,13 @@ blockquote {
 }
 
 .btn--outline {
-  background: white;
-  border: 1px solid #dddddd;
-  color: #111111;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
 }
 .btn--outline:hover {
-  background: #dddddd;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #005ea5;
+  color: white;
 }
 
 .btn--small {
