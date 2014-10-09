@@ -1519,17 +1519,21 @@ h3 {
 .blog h4, .events h4 {
   margin-bottom: 5px;
 }
-.events li, .blog li {
+.events li, .blog li, .leaders li {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
-.events li:last-child, .blog li:last-child {
+.leaders li {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.events li:last-child, .blog li:last-child, .leaders li:last-child {
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: none;
 }
-.blog h3, .events h3 {
+.blog h3, .events h3, .leaders h3 {
   font-size: 18px;
   margin: 0 0 3px;
 }
