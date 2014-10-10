@@ -258,7 +258,7 @@ h6 {
 }
 
 a:link {
-  color: #005ea5;
+  color: #1770af;
 }
 a:visited {
   color: #b10dc9;
@@ -390,7 +390,7 @@ blockquote {
 }
 .btn:hover, .btn--action:hover, .btn--cancel:hover, .btn--disabled:hover, .btn--outline:hover, .btn--small:hover, .btn--large:hover, .btn--get-some:hover {
   color: #fff;
-  background: #005ea5;
+  background: #1770af;
 }
 
 .btn--pill {
@@ -442,7 +442,7 @@ blockquote {
 .btn--link {
   background: transparent;
   text-decoration: underline;
-  margin-top: 3px;
+  margin-top: 5px;
   font-size: 14px;
 }
 @media only screen and (min-width: 768px) {
