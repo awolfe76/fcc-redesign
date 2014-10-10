@@ -1462,7 +1462,10 @@ nav.top {
 }
 .banner hgroup {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.banner hgroup:last-child {
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) {
   .banner hgroup {
@@ -1497,11 +1500,29 @@ nav.top {
   line-height: 1.2;
   margin-bottom: 10px;
 }
+.digest {
+  margin-top: 10px;
+  display: inline-block;
+}
+@media only screen and (min-width: 768px) {
+  .digest {
+    margin-top: 0;
+  }
+}
 h3 {
   font-size: 24px;
   font-weight: 700;
   margin: 0;
 }
+.bump {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .bump {
+    margin-top: 0;
+  }
+}
+
 .no-bullets {
   list-style:none; padding: 0; margin: 0;
   margin-top: 20px;
@@ -1599,7 +1620,12 @@ footer .no-bullets li {
   margin-bottom: 0;
 }
 footer .social {
-  margin-top: 25px;
+  margin: 30px 0;
+}
+@media only screen and (min-width: 768px) {
+  footer .social {
+    margin: 30px 0 0;
+  }
 }
 footer .social .fa {
   font-size: 18px;
