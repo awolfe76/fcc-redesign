@@ -2,6 +2,7 @@
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -1604,7 +1605,7 @@ h3 .btn {
 footer {
   border-top: 1px solid #ddd;
   font-size: 14px;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 footer address {
   font-style: normal;
@@ -1617,6 +1618,14 @@ footer .no-bullets li {
 }
 footer .social {
   margin: 30px 0;
+}
+footer nav {
+  text-align: left;
+  font-weight: 700;
+}
+footer nav a:link {
+  color: #1770af;
+  text-transform: capitalize;
 }
 @media only screen and (min-width: 768px) {
   footer .social {
