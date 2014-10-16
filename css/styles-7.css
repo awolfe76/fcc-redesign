@@ -1373,7 +1373,7 @@ input[type="text"], textarea {
   font-family: "Open Sans";
   border: 1px solid #dddddd;
   border-radius: 2px;
-  padding: 8px 10px;
+  padding: 4px 6px;
 }
 
 label {
@@ -1449,7 +1449,9 @@ nav.top {
 }
 @media only screen and (min-width: 768px) {
   nav.top {
-    text-align: left;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 .banner {
@@ -1458,7 +1460,7 @@ nav.top {
     45deg,
     #1770af, #2d8ece, #1770af
     );
-  padding: 30px 0;
+  padding: 15px 0;
   text-align: center;
 }
 .banner hgroup {
@@ -1554,8 +1556,7 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
   .news li {
-    width: 33.33333%;
-    padding-right: 30px;
+    width: 100%;
     float: left;
   }
 }
